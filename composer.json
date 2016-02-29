@@ -1,0 +1,32 @@
+{
+    "name": "steveazz/rudolly",
+    "description": "Russian doll caching implmentation for laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Steve Azzopardi",
+            "email": "steveazz@outlook.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "illuminate/support": "^5.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.8",
+        "codegyre/robo": "~0.5",
+        "illuminate/database": "^5.2",
+        "illuminate/cache": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "SteveAzz\\RuDolly\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/TestCase.php"
+        ]
+    }
+}
